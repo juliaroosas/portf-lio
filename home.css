@@ -4,7 +4,7 @@ body, html {
     margin: 0;
     height: 100%;
     width: 100vw;
-    overflow: hidden; /* Remover barras de rolagem */
+    overflow: hidden; 
 }
 
 .grid-container {
@@ -16,32 +16,31 @@ body, html {
 }
 
 .grid-item1 {
-    background-color: rgba(173, 255, 47, 0.5)
-    
+    background-color: rgb(144, 255, 128);
 }
 
 .menu {
-    list-style-type: none; /* Remove os marcadores da lista */
-    padding: 0; /* Remove o preenchimento padrão */
-    margin: 0; /* Remove a margem padrão */
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
 }
 
 .menu li {
-    margin: 10px 0; /* Espaçamento entre os itens do menu */
+    margin: 10px 0; 
 }
 
 .menu a {
     font-family: 'Montserrat', sans-serif;
-    color:  rgb(66, 32, 181); /* Cor do texto do link */
-    text-decoration: none; /* Remove o sublinhado */
-    display: block; /* Faz o link ocupar toda a largura do item */
-    padding: 10px; /* Espaçamento interno nos links */
-    transition: background-color 0.3s; /* Efeito de transição */
+    color:  rgb(94, 23, 235);
+    text-decoration: none; 
+    display: block; 
+    padding: 10px; 
+    transition: background-color 0.3s;
 }
 
 .menu a:hover {
-    background-color: rgb(66, 32, 181);
-    color: rgb(173, 255, 47)
+    background-color: rgb(94, 23, 235);
+    color: rgb(173, 255, 47);
 }
 
 .image-container {
@@ -54,7 +53,7 @@ body, html {
 }
 
 .grid-item2 {
-    background-color: rgb(66, 32, 181);
+    background-color: rgb(94, 23, 235);
 }
 
 .presentation {
@@ -64,6 +63,6 @@ body, html {
     text-align: right;
     margin-right: 22%;
     font-family: 'Montserrat', sans-serif;
-    color: rgb(173, 255, 47)
+    color: rgb(128, 255, 0);
 }
 
