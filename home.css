@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body, html {
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+    overflow: hidden; /* Remover barras de rolagem */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 100%;
+    width: 100vw;
+    height: 100vh;
+    position: relative
+}
+
+.grid-item1 {
+    background-color: rgba(173, 255, 47, 0.5)
+    
+}
+
+.menu {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.menu li {
+    margin: 10px 0; /* Espaçamento entre os itens do menu */
+}
+
+.menu a {
+    font-family: 'Montserrat', sans-serif;
+    color:  rgb(66, 32, 181); /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado */
+    display: block; /* Faz o link ocupar toda a largura do item */
+    padding: 10px; /* Espaçamento interno nos links */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.menu a:hover {
+    background-color: rgb(66, 32, 181);
+    color: rgb(173, 255, 47)
+}
+
+.image-container {
+    display: flex;             
+    position: relative; 
+    float: left; 
+    margin-left: 150px; 
+    max-width: 100%;        
+    height: auto; 
+}
+
+.grid-item2 {
+    background-color: rgb(66, 32, 181);
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    text-align: right;
+    margin-right: 22%;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(173, 255, 47)
+}
+
